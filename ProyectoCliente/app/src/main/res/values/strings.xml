@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProyectoCliente</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_crear_aula">CrearAula</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_menu_profesor">MenuProfesor</string>
+    <string name="title_activity_menu_alumno">MenuAlumno</string>
+    <string name="title_activity_siguiente_alumno">SiguienteAlumno</string>
+    <string name="title_activity_borrar_aula">BorrarAula</string>
+    <string name="title_activity_registrar">Registrar</string>
+    <string name="title_activity_consultar_turno">ConsultarTurno</string>
+
+</resources>

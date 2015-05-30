@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.egibide.proyecto.proyectocliente" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Conexion"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CrearAula"
+            android:label="@string/title_activity_crear_aula" >
+        </activity>
+        <activity
+            android:name=".MenuProfesor"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".MenuAlumno"
+            android:label="@string/title_activity_menu_alumno" >
+        </activity>
+        <activity
+            android:name=".SiguienteAlumno"
+            android:label="@string/title_activity_siguiente_alumno" >
+        </activity>
+        <activity
+            android:name=".BorrarAula"
+            android:label="@string/title_activity_borrar_aula" >
+        </activity>
+        <activity
+            android:name=".Registrar"
+            android:label="@string/title_activity_registrar" >
+        </activity>
+        <activity
+            android:name=".ConsultarTurno"
+            android:label="@string/title_activity_consultar_turno" >
+        </activity>
+    </application>
+
+</manifest>
